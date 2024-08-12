@@ -107,18 +107,12 @@ export default function Example() {
                 floated={false}
                 shadow={false}
                 color="transparent"
-                className="flex flex-col gap-4 rounded-none md:flex-row md:items-center"
+                className="flex flex-col gap-4 rounded-lg md:flex-row md:items-center"
             >
                 <FaChartLine />
                 <div>
                     <Typography variant="h6" color="blue-gray">
                         Line Chart
-                    </Typography>
-                    <Typography
-                        variant="small"
-                        color="gray"
-                        className="max-w-sm font-normal"
-                    >
                     </Typography>
                 </div>
             </CardHeader>
