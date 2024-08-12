@@ -38,10 +38,10 @@ const CompHeader = ({ sideOpen, setSideOpen }) => {
             leaveFrom="transform scale-100 opacity-100"
             leaveTo="transform scale-95 opacity-0"
           >
-            <PopoverPanel className="absolute w-max min-w-[170px] flex flex-col right-3 top-14 rounded-lg shadow-lg bg-slate-600 pt-3 pb-1 px-1 text-white">
+            <PopoverPanel className="absolute w-max min-w-[170px] flex flex-col right-3 top-14 rounded-lg shadow-lg bg-[#0F172A] pt-3 pb-1 px-1 text-white">
               <div className="px-2 pb-2">
                 <div className="text-xs font-medium">
-                  Wawan Gunawan
+                  M. Aldi Kurniawan
                 </div>
                 <div className="text-[10px]">Admin</div>
               </div>
